@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat";
+}
+
+em{
+  display: block;
+}
+
+/* Title Section Start */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Nunito Sans";
+  font-size: 1.5rem;
+}
+
+/* Image */
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Title Section End */
+
+/* Features Section Start */
+
+#features{
+  position: relative;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+/* Grids */
+.feature-items {
+  padding: 2% 6%;
+}
+
+/* Icons */
+.features-icon {
+  font-size: 3.125rem;
+  color: #ef8172;
+  padding: 0 0px 15px;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* Features Section End */
+
+/* Testimonials Section Start */
+
+#testimonials{
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Image */
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Testimonials Section End */
+
+/* Press Section Start */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+/* Image */
+.brand-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+
+}
+
+/* Press Section End */
+
+/* Pricing Section Start */
+
+#pricing{
+  padding: 120px;
+}
+
+.pricing-card-title{
+  font-size: 1.5rem;
+}
+
+.pricing-card-text{
+ font-size: 3rem;
+ line-height: 1.5;
+}
+
+/* Grids */
+.pricing-card{
+  padding: 3% 2%;
+}
+
+/* Pricing Section End */
+
+/* CTA Section Start */
+
+/* Also Used In Title Section */
+.download-btns {
+  margin: 5% 3% 5% 0%;
+}
+
+/* CTA Section End */
+
+/* Footer Section Start */
+
+#footer{
+  line-height:2.5;
+}
+
+/* Icons */
+.contact-icon{
+  margin: 20px 10px;
+}
+
+/* Footer Section End */
+
+/* Headings */
+
+.big-heading{
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers & Sections */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.colored-section{
+  background-color: #ff4c68;
+  color:white;
+}
+
+.white-section{
+  background-color: white;
+  color: black;
+}
+
+/* Buttons */
+
+.btn-dark{
+  background-color: black;
+}
+
+.btn-dark:hover{
+  background-color: #0e0e0e;
+}
+
+.btn-outline-dark:hover{
+  background-color: black;
+}
+
+/* Media Query Start */
+
+@media (max-width: 1028px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+/* Media Query Start */
